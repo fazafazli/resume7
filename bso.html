@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KMTETI - BSO</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <nav class="bg-white shadow p-4 flex justify-between items-center sticky top-0 z-50">
+    <h1 class="text-xl font-bold text-blue-600">KMTETI</h1>
+    <ul class="flex gap-6">
+      <li><a href="index.html" class="hover:text-blue-600">Home</a></li>
+      <li><a href="bso.html" class="hover:text-blue-600 font-semibold">BSO</a></li>
+      <li><a href="divisi.html" class="hover:text-blue-600">Divisi & Biro</a></li>
+      <li><a href="oprec.html" class="hover:text-blue-600">Open Recruitment</a></li>
+    </ul>
+  </nav>
+
+  <section class="p-10">
+    <h2 class="text-3xl font-bold mb-6">Badan Semi Otonom (BSO)</h2>
+
+    <div class="space-y-6">
+      <div class="bg-white p-6 shadow rounded">
+        <h3 class="text-xl font-semibold">1. SKI Al Hannaan (Sentra Kerohanian Islam)</h3>
+        <p class="mt-2">Wadah kegiatan kerohanian Islam di DTETI.</p>
+        <button onclick="document.getElementById('modal-ski').classList.remove('hidden')" 
+                class="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+          Lihat Detail
+        </button>
+      </div>
+
+      <div id="modal-ski" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div class="bg-white w-11/12 md:w-2/3 lg:w-1/2 p-6 rounded shadow-lg overflow-y-auto max-h-[80vh]">
+          <h2 class="text-2xl font-bold mb-4">BSO SKI Al Hannaan (Sentra Kerohanian Islam)</h2>
+          <h3 class="text-lg font-semibold">Tujuan dan Fokus</h3>
+          <p class="mb-4">
+            SKI Al Hannaan adalah wadah yang mengumpulkan dan menyalurkan aspirasi Islami bagi warga Muslim di DTETI.
+            Tujuannya meliputi penyampaian dakwah, mendekatkan diri kepada Allah, melatih kemampuan berorganisasi,
+            dan menumbuhkan semangat ibadah.
+          </p>
+          <h3 class="text-lg font-semibold">Struktur Organisasi</h3>
+          <ul class="list-disc ml-6 mb-4">
+            <li>Ketua</li>
+            <li>Wakil Ketua</li>
+            <li>Sekretaris & Bendahara</li>
+            <li>Divisi:
+              <ul class="list-decimal ml-6 mt-2">
+                <li><strong>Pengembangan:</strong> memantau dan meningkatkan kualitas kader.</li>
+                <li><strong>Kajian:</strong> menyelenggarakan majelis keilmuan Islam.</li>
+                <li><strong>Syiar Media:</strong> dakwah via Instagram, YouTube, Twitter, publikasi & dokumentasi.</li>
+                <li><strong>Biro Kemuslimahan:</strong> mengoordinasikan kegiatan khusus mahasiswi Muslim.</li>
+                <li><strong>Musala:</strong> mengelola & merawat musala DTETI.</li>
+              </ul>
+            </li>
+          </ul>
+          <h3 class="text-lg font-semibold">Program Kerja Utama</h3>
+          <p class="mb-4">Open Recruitment dan First Gathering.</p>
+          <h3 class="text-lg font-semibold">Informasi Tambahan</h3>
+          <p class="mb-4">Instagram resmi: 
+            <a href="https://instagram.com/skialhannaan" target="_blank" class="text-blue-600 underline">@skialhannaan</a>
+          </p>
+          <div class="text-right">
+            <button onclick="document.getElementById('modal-ski').classList.add('hidden')" 
+                    class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white p-6 shadow rounded">
+        <h3 class="text-xl font-semibold">2. SKK DTETI (Sentra Kerohanian Kristen)</h3>
+        <p class="mt-2">Wadah mahasiswa Kristen Protestan & Katolik di DTETI.</p>
+        <button onclick="document.getElementById('modal-skk').classList.remove('hidden')" 
+                class="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+          Lihat Detail
+        </button>
+      </div>
+
+      <div id="modal-skk" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div class="bg-white w-11/12 md:w-2/3 lg:w-1/2 p-6 rounded shadow-lg overflow-y-auto max-h-[80vh]">
+          <h2 class="text-2xl font-bold mb-4">BSO SKK DTETI (Sentra Kerohanian Kristen)</h2>
+          <h3 class="text-lg font-semibold">Tujuan dan Fokus</h3>
+          <p class="mb-4">
+            SKK DTETI adalah wadah bagi mahasiswa DTETI UGM yang beragama Kristen Protestan dan Katolik 
+            untuk bertumbuh bersama dalam iman dan menjaga kehidupan spiritual.
+          </p>
+          <h3 class="text-lg font-semibold">Struktur Organisasi</h3>
+          <ul class="list-disc ml-6 mb-4">
+            <li>Ketua</li>
+            <li>Wakil Ketua</li>
+            <li>Sub-kepengurusan: Internal, Eksternal, Publikasi, Penilik Angkatan</li>
+          </ul>
+          <h3 class="text-lg font-semibold">Program Kerja Utama</h3>
+          <ol class="list-decimal ml-6 mb-4">
+            <li><strong>Doa Bersama Pra-Ujian:</strong> sesi doa bersama sebelum masa ujian.</li>
+            <li><strong>Perayaan Paskah dan Natal:</strong> acara kumpul bersama untuk merayakan hari besar keagamaan.</li>
+            <li><strong>First Gathering:</strong> saling mengenal antar anggota dan kakak tingkat.</li>
+          </ol>
+          <h3 class="text-lg font-semibold">Informasi Tambahan</h3>
+          <p class="mb-4">Acara <em>First Gathering</em> dijadwalkan pada <strong>Jumat, 3 Oktober</strong>.</p>
+          <div class="text-right">
+            <button onclick="document.getElementById('modal-skk').classList.add('hidden')" 
+                    class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white p-6 shadow rounded">
+        <h3 class="text-xl font-semibold">3. Magatrika</h3>
+        <p class="mt-2">Fokus pada bidang ketenagalistrikan dengan proker pelatihan software, dan real world project.</p>
+        <button onclick="document.getElementById('modal-magatrika').classList.remove('hidden')" 
+                class="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+          Lihat Detail
+        </button>
+      </div>
+
+      <div id="modal-magatrika" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div class="bg-white w-11/12 md:w-2/3 lg:w-1/2 p-6 rounded shadow-lg overflow-y-auto max-h-[80vh]">
+          <h2 class="text-2xl font-bold mb-4">BSO Magatrika (Mahasiswa Tenaga Listrik)</h2>
+          <h3 class="text-lg font-semibold">Tujuan dan Fokus</h3>
+          <p class="mb-4">
+            Magatrika berfokus pada bidang ketenagalistrikan (power) dan menjadi jembatan bagi mahasiswa yang berminat pada proyek-proyek dunia nyata, workshop, dan interaksi dengan stakeholder industri.
+          </p>
+          <h3 class="text-lg font-semibold">Struktur Organisasi</h3>
+          <ul class="list-disc ml-6 mb-4">
+            <li>Teknis: Power System, Power Electronics, dan Energy Conversion</li>
+            <li>Non-Teknis: PSDM, Humas, dan PDD</li>
+          </ul>
+          <h3 class="text-lg font-semibold">Program Kerja Utama</h3>
+          <ol class="list-decimal ml-6 mb-4">
+            <li>Pelatihan dan Workshop: Mengadakan pelatihan software industri seperti Digsilent Power Factory.</li>
+            <li>Real World Project: Bekerja sama dengan dosen dalam proyek-proyek industri dan kemasyarakatan.</li>
+            <li>Menyediakan informasi ringkas seputar dunia power dan lomba.</li>
+            <li>Membantu mahasiswa akhir menentukan minat karier dan skripsi.</li>
+          </ol>
+          <h3 class="text-lg font-semibold">Informasi Tambahan</h3>
+          <p class="mb-4">
+            Magatrika memiliki akun Instagram dan LinkedIn baru. Mereka juga membuka Open PO Korsa (jaket angkatan) dengan desain yang berbeda setiap tahunnya.
+          </p>
+          <div class="text-right">
+            <button onclick="document.getElementById('modal-magatrika').classList.add('hidden')" 
+                    class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white p-6 shadow rounded">
+        <h3 class="text-xl font-semibold">4. Night Login (NL)</h3>
+        <p class="mt-2">Fokus pada teknologi, inovasi, dan bisnis digital dengan berbagai komunitas.</p>
+        <button onclick="document.getElementById('modal-nl').classList.remove('hidden')" 
+                class="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+          Lihat Detail
+        </button>
+      </div>
+
+      <div id="modal-nl" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div class="bg-white w-11/12 md:w-2/3 lg:w-1/2 p-6 rounded shadow-lg overflow-y-auto max-h-[80vh]">
+          <h2 class="text-2xl font-bold mb-4">BSO Night Login (NL)</h2>
+          <h3 class="text-lg font-semibold">Tujuan dan Fokus</h3>
+          <p class="mb-4">
+            NL berfokus pada pengembangan keterampilan di bidang teknologi, bisnis digital, dan inovasi untuk mencetak mahasiswa IT yang adaptif, inovatif, dan kompetitif hingga tingkat internasional.
+          </p>
+          <h3 class="text-lg font-semibold">Divisi (Komunitas)</h3>
+          <ul class="list-disc ml-6 mb-4">
+            <li>Data Science</li>
+            <li>App Development</li>
+            <li>Web Development</li>
+            <li>Game Development</li>
+            <li>Cyber Security</li>
+            <li>User Experience (UX)</li>
+            <li>Business Development</li>
+          </ul>
+          <h3 class="text-lg font-semibold">Program Kerja Utama</h3>
+          <ol class="list-decimal ml-6 mb-4">
+            <li>Community Training: Pelatihan rutin setiap Sabtu.</li>
+            <li>Find IT: Lomba IT.</li>
+            <li>Private Bootcamp Web3: Pelatihan khusus kripto dengan mitra industri.</li>
+            <li>Programming Week: Lomba internal DTETI.</li>
+            <li>Kerja Sama Industri: Terlibat di acara industri seperti Coinfest dan kerja sama dengan Omah TI.</li>
+          </ol>
+          <h3 class="text-lg font-semibold">Informasi Tambahan</h3>
+          <p class="mb-4">Instagram resmi: <a href="https://instagram.com/nightlogin" target="_blank" class="text-blue-600 underline">@nightlogin</a>. NL mempertimbangkan program magang agar anggota bisa mencoba divisi sebelum memilih permanen.</p>
+          <div class="text-right">
+            <button onclick="document.getElementById('modal-nl').classList.add('hidden')" 
+                    class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white p-6 shadow rounded">
+        <h3 class="text-xl font-semibold">5. Bionce</h3>
+        <p class="mt-2">BSO mahasiswa Teknik Biomedis dengan fokus pelatihan, inovasi, dan proyek kolaboratif.</p>
+        <button onclick="document.getElementById('modal-bionce').classList.remove('hidden')" 
+                class="mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
+          Lihat Detail
+        </button>
+      </div>
+
+      <div id="modal-bionce" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div class="bg-white w-11/12 md:w-2/3 lg:w-1/2 p-6 rounded shadow-lg overflow-y-auto max-h-[80vh]">
+          <h2 class="text-2xl font-bold mb-4">BSO Bionce</h2>
+          <h3 class="text-lg font-semibold">Tujuan dan Fokus</h3>
+          <p class="mb-4">
+            Bionce adalah BSO Teknik Biomedis yang bertujuan mempromosikan ilmu, mengembangkan skill, serta membangun komunitas berkelanjutan di bidang teknik biomedis.
+          </p>
+          <h3 class="text-lg font-semibold">Struktur Organisasi</h3>
+          <ul class="list-disc ml-6 mb-4">
+            <li>President</li>
+            <li>Vice President</li>
+            <li>Management Team: Administration, Program, Human Resource, Marketing</li>
+            <li>Communities: Hardware dan Software</li>
+          </ul>
+          <h3 class="text-lg font-semibold">Program Kerja Utama</h3>
+          <ol class="list-decimal ml-6 mb-4">
+            <li>Pelatihan: 3D Design dan IoT terbuka untuk seluruh mahasiswa UGM.</li>
+            <li>Proyek Kolaboratif: Kerja sama dengan dosen dan startup robotika untuk pengembangan mesin dialisis.</li>
+            <li>Simposium dan Seminar: Acara nasional tentang biomedis.</li>
+          </ol>
+          <h3 class="text-lg font-semibold">Informasi Tambahan</h3>
+          <p class="mb-4">Instagram resmi: <a href="https://instagram.com/bionce.ugm" target="_blank" class="text-blue-600 underline">@bionce.ugm</a>. Bionce hadir sebagai wadah khusus mahasiswa Biomedis di luar perkuliahan.</p>
+          <div class="text-right">
+            <button onclick="document.getElementById('modal-bionce').classList.add('hidden')" 
+                    class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="text-center my-8">
+    <a href="divisi.html" class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold transition">
+      Next →
+    </a>
+  </div>
+
+  <footer class="bg-gray-800 text-white text-center p-4">
+    <p>&copy; Muhammad Fazli (Kalyke)</p>
+  </footer>
+
+</body>
+</html>
